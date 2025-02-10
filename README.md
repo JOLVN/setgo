@@ -20,19 +20,19 @@ Set&Go est une application mobile de suivi de progression en musculation, permet
 
 1. **Cloner le projet** :
    ```sh
-   git clone https://github.com/tonrepo/set-and-go.git
-   cd set-and-go
+   git clone https://github.com/JOLVN/setgo.git
+   cd setgo
    ```
 
 2. **Installer les dépendances** :
    ```sh
    npm install
    ```
-
-3. **Configurer Firebase** :
-   - Crée un projet Firebase et ajoute l'application mobile.
-   - Configure Firestore et l'authentification.
-   - Ajoute le fichier `firebaseConfig.js` à la racine du projet avec les clés API.
+3. **Créer un fichier app.json**
+   ```sh
+   cp app.example.json app.json
+   ```
+   Remplir les champs `expo` avec les informations de votre projet.
 
 4. **Lancer l'application** :
    ```sh
